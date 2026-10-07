@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: 'Sarabun', system-ui, -apple-system, sans-serif;
+  background: #f6fafe;
+  color: #111;
+  -webkit-font-smoothing: antialiased;
+}

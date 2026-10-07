@@ -1,0 +1,6 @@
+interface:
+  display_name: "ASCII → Img"
+  short_description: "ASCII → tela de app em mocks/{n}-a.png (capricho, paleta, função)"
+  default_prompt: "Use $ascii2img: leia mocks/{n}.txt, monte o pedido e gere gpt-image-2 @1K em mocks/{n}-a.png via --prompt (não grave o prompt em .txt; não anexe molde)."
+policy:
+  allow_implicit_invocation: false
